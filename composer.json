@@ -1,20 +1,20 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/serbian-cyrillic",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Serbian (Cyrillic) language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/serbian-cyrillic",
 	"keywords": [
 		"locale",
 		"flarum",
 		"flarum-locale",
-		"xx-locale",
-		"xxish-locale",
-		"xxish"
+		"sr_Cyrl-locale",
+		"serbian-cyrillic-locale",
+		"serbian-cyrillic"
 	],
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/serbian-cyrillic/issues",
+		"source": "https://github.com/flarum-lang/serbian-cyrillic"
 	},
 	"require": {
 		"flarum/core": "^1.6"
@@ -23,7 +23,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Serbian (Cyrillic)",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -32,8 +32,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "sr_Cyrl",
+			"title": "Serbian (Cyrillic)"
 		},
 		"extiverse": {
 			"discuss": ""
