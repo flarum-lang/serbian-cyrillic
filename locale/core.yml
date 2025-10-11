@@ -43,11 +43,18 @@ core:
       mail_username_label: '=> core.ref.username'
       not_sending_message: 'Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном драјверу, или грешкама у његовој конфигурацији.'
       send_test_mail_button: Пошаљи
+      send_test_mail_heading: 'Пошаљи тест имејл'
+      send_test_mail_success: 'Тест имејл је успешно послат!'
+      send_test_mail_text: 'Ово ће послати имејл користећи горњу конфигурацију на вашу адресу, {email}.'
+      smtp_heading: 'SMTP подешавања'
     extension:
+      disabled: Онемогућено
+      enabled: Омогућено
       info_links:
         documentation: Документација
         donate: Донирајте
         support: Подршка
+        website: 'Веб страница'
       open_modal: 'Отвори подешавања'
       permissions_title: Дозволе
       purge_button: Очисти
@@ -71,6 +78,12 @@ core:
       forgot_password_link: 'Заборавили сте лозинку?'
       invalid_login_message: 'Унесени податци за приступ нису исправни.'
       remember_me_label: Сачувај
+    user_controls:
+      button: Контроле
+    user_email_confirmation:
+      sent_message: Послато
+    welcome_hero:
+      hide: 'Сакрите поруку добродошлице'
   group:
     admin: Администратор
     admins: Администратори
@@ -83,6 +96,11 @@ core:
   lib:
     badge:
       hidden_tooltip: Скривено
+    edit_user:
+      activate_button: 'Активирај корисника'
+      groups_heading: Групе
+      nothing_available: 'Ви нисте овлашћени да правите промене на овом кориснику'
+      set_password_label: 'Изабери нову лозинку'
   ref:
     change_password: 'Пормени лозинку'
     color: Боја
@@ -91,6 +109,7 @@ core:
     load_more: 'Учитај још'
     loading: 'Учитава се...'
     log_in: 'Пријавите се'
+    log_out: 'Одјавите се'
     next_page: 'Следећа страница'
     password: Лозинка
     posts: Поруке
