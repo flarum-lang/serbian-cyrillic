@@ -7,6 +7,8 @@ core:
     appearance:
       colors_heading: Боје
       colors_primary_label: 'Основна боја'
+      colors_secondary_label: 'Споредна боја'
+      colors_text: 'Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја позадинских елемената.'
       dark_mode_label: 'Затамњени режим'
   forum:
     forgot_password:
