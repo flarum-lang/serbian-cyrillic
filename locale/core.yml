@@ -8,8 +8,51 @@ core:
       colors_heading: Боје
       colors_primary_label: 'Основна боја'
       colors_secondary_label: 'Споредна боја'
-      colors_text: 'Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја позадинских елемената.'
+      colors_text: 'Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја за стил позадинских елемената.'
       dark_mode_label: 'Затамњени режим'
+      enter_hex_message: 'Унесите хексадецималну вредност за боју.'
+      logo_text: 'Пошаљите слику која ће се користити уместо наслова форума.'
+      title: Изглед
+    basics:
+      default_language_heading: 'Подразумевани језик'
+      description: 'Подесите наслов, језик и друга основна подешавања за ваш форум.'
+      display_name_heading: 'Приказ имена корисника'
+      display_name_text: 'Изаберите шта треба приказати као име корисника. Подразумевано подешавање је да се приказује корисничко име.'
+      forum_description_heading: 'Опис форума'
+      forum_title_heading: 'Наслов форума'
+      home_page_heading: 'Почетна страна'
+      show_language_selector_label: 'Прикажи подешавања за одабир језика'
+      title: Основно
+    create_user:
+      title: 'Нови корисник'
+      use_random_password: 'Генериши насумичну шифру'
+    dashboard:
+      clear_cache_button: 'Очисти кеш'
+      title: 'Контролна табла'
+      tools_button: Алати
+    edit_group:
+      delete_button: 'Обриши групу'
+      delete_confirmation: 'Да ли сте сигурни да желите да обришете ову групу? Чланови групе неће бити обрисани.'
+      title: 'Направи групу'
+    email:
+      from_label: Пошиљалац
+      mail_encryption_label: Шифровање
+      mail_host_label: Домаћин
+      mail_password_label: '=> core.ref.password'
+      mail_port_label: Порт
+      mail_username_label: '=> core.ref.username'
+      not_sending_message: 'Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном драјверу, или грешкама у његовој конфигурацији.'
+      send_test_mail_button: Пошаљи
+    extension:
+      info_links:
+        documentation: Документација
+        donate: Донирајте
+        support: Подршка
+      open_modal: 'Отвори подешавања'
+      permissions_title: Дозволе
+      purge_button: Очисти
+    loading:
+      title: 'Молим сачекајте...'
   forum:
     forgot_password:
       title: 'Заборавили сте шифру'
@@ -37,6 +80,9 @@ core:
     members: Чланови
     mod: Модератор
     mods: Модератори
+  lib:
+    badge:
+      hidden_tooltip: Скривено
   ref:
     change_password: 'Пормени лозинку'
     color: Боја
@@ -44,6 +90,7 @@ core:
     delete_forever: 'Избриши заувек'
     load_more: 'Учитај још'
     loading: 'Учитава се...'
+    log_in: 'Пријавите се'
     next_page: 'Следећа страница'
     password: Лозинка
     posts: Поруке
