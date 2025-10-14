@@ -11,3 +11,8 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
