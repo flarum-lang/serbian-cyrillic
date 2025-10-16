@@ -181,13 +181,24 @@ core:
       cannot_reply_text: 'Немате дозволу да одговорите у овој дискусији.'
       delete_confirmation: 'Да ли сте сигурни да желите да избришете ову дискусију?'
       log_in_to_reply_button: 'Пријави се да одговориш'
+    discussion_list:
+      replied_text: '{username} одговорио {ago}'
+      started_text: '{username} отпочео {ago}'
     forgot_password:
+      not_found_message: 'Не постоји корисник са овом адресом е-поште.'
+      submit_button: 'Поставите нову лозинку'
+      text: 'Напишите вашу адресу е-поште и послаћемо вам линк да промените вашу лозинку.'
       title: 'Заборавили сте шифру'
     header:
+      admin_button: Администрација
+      back_to_index_tooltip: 'Врати се на листу дискусија'
+      locale_dropdown_accessible_label: 'Промените језик'
+      profile_button: Профил
       search_placeholder: 'Претражи форум'
       search_role_label: 'Претражи форум'
     index:
       cannot_start_discussion_button: 'Не можете почети дискусију'
+      mark_all_as_read_confirmation: 'Да ли сте сигурни да желите да обележите све дискусије као прочитане?'
       refresh_tooltip: Освежи
       toggle_sidenav_dropdown_accessible_label: 'Укључи/искључи падајућу мени за навигацију'
     index_sort:
