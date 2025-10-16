@@ -289,6 +289,8 @@ core:
       groups_heading: Групе
       nothing_available: 'Ви нисте овлашћени да правите промене на овом кориснику.'
       set_password_label: 'Изабери нову лозинку'
+    modal:
+      close: Затвори
   ref:
     all_discussions: 'Све дискусије'
     change_password: 'Пормени лозинку'
