@@ -11,18 +11,23 @@ core:
       colors_secondary_label: 'Споредна боја'
       colors_text: 'Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја за стил позадинских елемената.'
       custom_footer_heading: 'Прилагођено подножије'
+      custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Прилагођено заглавље'
-      custom_styles_heading: 'Прилагођени Стилови'
+      custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_heading: 'Прилагођени стилови'
       custom_styles_text: 'Подесите изглед форума додавањем вашег Less/CSS кода који ће бити примењен преко Фларумовог стандардног стила.'
       dark_mode_label: 'Затамњени режим'
       description: 'Подесите боје, лого и друге параметре вашег форума.'
       edit_css_button: 'Промените ваш додатни CSS'
+      edit_footer_button: '=> core.ref.custom_footer_title'
+      edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Унесите хексадецималну вредност за боју.'
       favicon_text: 'Пошаљите слику која ће бити коришћена као икона пречице за форум.'
       logo_heading: Лого
       logo_text: 'Пошаљите слику која ће се користити уместо наслова форума.'
       title: Изглед
     basics:
+      all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Подразумевани језик'
       description: 'Подесите наслов, језик и друга основна подешавања за ваш форум.'
       display_name_heading: 'Приказ имена корисника'
@@ -38,12 +43,16 @@ core:
       welcome_banner_text: 'Конфигуришите текс који ће се приказивати на банеру странице са свим дискусијама. Функција текста је да пожелите добродошлицу посетиоцима форума.'
     create_user:
       email_confirmed_label: 'Корисник мора да потврди овај имејл'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
       submit_and_create_another_button: 'Направи и додај још један'
       submit_button: 'Направи корисника'
       title: 'Нови корисник'
       use_random_password: 'Генериши насумичну шифру'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Очисти кеш'
+      description: 'Преглед вашег форума.'
       io_error_message: 'Није могуће писати по диску. Проверите дозволе и пробајте поново. Такође, можете покушати да извршите операцију из командне линије.'
       status:
         headers:
@@ -58,13 +67,26 @@ core:
       label: 'Дебаг мод је укључен'
     edit_css:
       customize_text: 'Прилагодите изглед форума додавањем вашег Less/CSS кода који ће бити примењен поврх Фларумовог <a>подразумеваног стилс</a>.'
+      submit_button: '=> core.ref.save_changes'
       title: 'Промените ваш прилагођени CSS'
+    edit_footer:
+      customize_text: '=> core.ref.custom_footer_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_footer_title'
     edit_group:
+      color_label: '=> core.ref.color'
       delete_button: 'Обриши групу'
       delete_confirmation: 'Да ли сте сигурни да желите да обришете ову групу? Чланови групе неће бити обрисани.'
       hide_label: 'Не приказуј на форуму'
+      icon_label: '=> core.ref.icon'
+      icon_text: '=> core.ref.icon_text'
       name_label: Име
+      submit_button: '=> core.ref.save_changes'
       title: 'Направи групу'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Адресе
       description: 'Конфигуришите механизам, подешавања и адресу који ће бити коришћени за слање е-поште.'
@@ -85,22 +107,56 @@ core:
       send_test_mail_success: 'Тест имејл је успешно послат!'
       send_test_mail_text: 'Ово ће послати имејл користећи горњу конфигурацију на вашу адресу, {email}.'
       smtp_heading: 'SMTP подешавања'
+      title: '=> core.ref.email'
     extension:
       disabled: Онемогућено
+      enable_to_see: 'Омогућите овом додатку да чита и пише подешавања.'
       enabled: Омогућено
       info_links:
+        discuss: Расправите
         documentation: Документација
         donate: Донирајте
+        source: Извор
         support: Подршка
         website: 'Веб страница'
+      no_permissions: 'Овај додатак нема дозволе.'
+      no_settings: 'Овај додатак нема подешавања.'
       open_modal: 'Отвори подешавања'
       permissions_title: Дозволе
       purge_button: Очисти
+      readme:
+        button_label: 'Прочитај ме'
+        no_readme: 'Овај додатак нема прочитај ме датотеку'
+        title: '{extName} документација'
+    header:
+      get_help: 'Тражи помоћ'
+      log_out_button: '=> core.ref.log_out'
     loading:
       title: 'Молим сачекајте...'
     nav:
+      appearance_button: '=> core.admin.appearance.title'
+      appearance_title: '=> core.admin.appearance.description'
+      basics_button: '=> core.admin.basics.title'
+      basics_title: '=> core.admin.basics.description'
       categories:
+        authentication: 'Потврда идентитета'
+        core: 'Основна подешавања'
         discussion: Дискусија
+        feature: Могућности
+        formatting: Форматирање
+        language: Језици
+        moderation: Уређивање
+        other: 'Други додаци'
+        theme: Теме
+      dashboard_button: '=> core.admin.dashboard.title'
+      dashboard_title: '=> core.admin.dashboard.description'
+      email_button: '=> core.ref.email'
+      email_title: '=> core.admin.email.description'
+      permissions_button: '=> core.admin.permissions.title'
+      permissions_title: '=> core.admin.permissions.description'
+      search_placeholder: 'Претражи додатке'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_hide_own_posts_label: 'Дозволи брисање сопствених порука'
       allow_post_editing_label: 'Дозволи уређивање порука'
@@ -126,6 +182,7 @@ core:
       remove_scope_label: 'Обриши опсег {scope}'
       rename_discussions_label: 'Преименуј дискусију'
       reply_to_discussions_label: 'Одговори у дискусију'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: 'Упиши се'
       start_discussions_label: 'Покрени дискусију'
       title: 'Дозволе приступа'
@@ -135,14 +192,18 @@ core:
       view_post_ips_label: 'Погледај IP адресу са које је послата порука'
     permissions_controls:
       allow_indefinitely_button: Неодређено
+      allow_never_button: '=> core.ref.never'
       allow_ten_minutes_button: 'За 10 минута'
       allow_until_reply_button: 'До следећег одговора'
       everyone_button: Сви
+      members_button: '=> core.group.members'
       signup_closed_button: Затворено
       signup_open_button: Отворено
     settings:
       saved_message: 'Ваше промене су записане.'
+      submit_button: '=> core.ref.save_changes'
     upload_image:
+      remove_button: '=> core.ref.remove'
       upload_button: 'Изабери слику...'
     users:
       create_user_button: 'Нови корисник'
@@ -152,8 +213,11 @@ core:
           display_name:
             title: 'Име за приказ'
           edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
             tooltip: 'Уреди {username}'
           email:
+            title: '=> core.ref.email'
             visibility_hide: 'Сакриј адресу е-поште'
             visibility_show: 'Прикажи адресу е-поште'
           group_badges:
@@ -167,6 +231,7 @@ core:
             title: Идентификатор
           username:
             profile_link_tooltip: 'Посети профил {username}'
+            title: '=> core.ref.username'
         invalid_column_content: Неважеће
       pagination:
         back_button: 'Предходна страница'
@@ -175,8 +240,14 @@ core:
         last_button: 'Иди на задњу страницу'
         next_button: 'Следећа страница'
         page_counter: 'Страница број {current} од укупно {total}'
+      search_placeholder: '=> core.ref.search_users'
+      title: '=> core.ref.users'
       total_users: 'Укупно корисника: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: '{filter} филтар мора бити нумерички.'
+      must_not_be_array_message: '{filter} филтар не сме бити низ.'
+      must_not_be_multidimensional_array_message: '{filter} филтар не сме бити вишедимензиони низ.'
     invalid_username_message: 'Корисничко име може садржати само слова, бројеве и цртице.'
   email:
     activate_account:
@@ -184,14 +255,22 @@ core:
       subject: 'Активирајте ваш нови налог'
     confirm_email:
       subject: 'Потврдите вашу нову адресу за е-пошту'
+    reset_password:
+      subject: '=> core.ref.reset_your_password'
     send_test:
       subject: 'Фларум тест е-поште'
   forum:
     change_email:
+      confirm_password_placeholder: '=> core.ref.confirm_password'
+      confirmation_message: '=> core.ref.confirmation_email_sent'
+      dismiss_button: '=> core.ref.okay'
       incorrect_password_message: 'Лозинка коју сте унели није исправна.'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.change_email'
     change_password:
       send_button: 'Пошаљите поруку за поништавање лозинке е-поштом'
       text: 'Притисните дугме испод и проверите вашу е-пошту за линк да промените вашу лозинку.'
+      title: '=> core.ref.change_password'
     composer:
       close_tooltip: Затвори
       exit_full_screen_tooltip: 'Изађите из режима преко целог екрана'
@@ -208,19 +287,34 @@ core:
       discard_confirmation: 'Нисте забележили ваше промене. Да ли желите да их поништите?'
       edited_message: 'Ваша измена је извршена.'
       post_link: 'Порука #{number} у {discussion}'
+      submit_button: '=> core.ref.save_changes'
+      view_button: '=> core.ref.view'
     composer_reply:
+      body_placeholder: '=> core.ref.write_a_reply'
       discard_confirmation: 'Нисте објавили вашу поруку. Да ли желите да је поништите?'
       posted_message: 'Ваша порука је објављена.'
       submit_button: 'Објави одговор'
+      view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 'Не можете одговорити'
       cannot_reply_text: 'Немате дозволу да одговорите у овој дискусији.'
+      delete_button: '=> core.ref.delete'
       delete_confirmation: 'Да ли сте сигурни да желите да избришете ову дискусију?'
+      delete_forever_button: '=> core.ref.delete_forever'
       log_in_to_reply_button: 'Пријави се да одговориш'
+      rename_button: '=> core.ref.rename'
+      reply_button: '=> core.ref.reply'
+      restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Укључи / искључи падајући мени за активности у дискусијама'
     discussion_list:
+      empty_text: 'Чини се да овде још увек нема дискусија.'
+      load_more_button: '=> core.ref.load_more'
       replied_text: '{username} одговорио {ago}'
       started_text: '{username} отпочео {ago}'
     forgot_password:
+      dismiss_button: '=> core.ref.okay'
+      email_placeholder: '=> core.ref.email'
+      email_sent_message: 'Уколико је мејл адреса коју сте унели регистрована на овом сајту, послаћемо вам мејл са линком за ресетовање ваше шифре. Уколико не добијете мејл за неколико минута, проверите да није завршио у фасцикли за непожељну пошту.'
       not_found_message: 'Не постоји корисник са овом адресом е-поште.'
       submit_button: 'Поставите нову лозинку'
       text: 'Напишите вашу адресу е-поште и послаћемо вам линк да промените вашу лозинку.'
@@ -229,13 +323,23 @@ core:
       admin_button: Администрација
       back_to_index_tooltip: 'Врати се на листу дискусија'
       locale_dropdown_accessible_label: 'Промените језик'
+      log_in_link: '=> core.ref.log_in'
+      log_out_button: '=> core.ref.log_out'
       profile_button: Профил
+      search_clear_button_accessible_label: 'Обриши упит за претрагу'
       search_placeholder: 'Претражи форум'
       search_role_label: 'Претражи форум'
+      session_dropdown_accessible_label: 'Укључи / искључи падајући мени са опцијама за сесију'
+      settings_button: '=> core.ref.settings'
+      sign_up_link: '=> core.ref.sign_up'
     index:
+      all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Не можете почети дискусију'
       mark_all_as_read_confirmation: 'Да ли сте сигурни да желите да обележите све дискусије као прочитане?'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: Освежи
+      start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Укључи/искључи падајућу мени за навигацију'
     index_sort:
       latest_button: 'Најновија тема'
@@ -247,23 +351,34 @@ core:
     log_in:
       forgot_password_link: 'Заборавили сте лозинку?'
       invalid_login_message: 'Унесени податци за приступ нису исправни.'
+      password_placeholder: '=> core.ref.password'
       remember_me_label: Сачувај
       sign_up_text: 'Немате налог? <a>Придружите се</a>'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Корисничко име или адреса е-поште'
     notifications:
       delete_all_confirm: 'Да ли сте сигурни да хоћете да обришете сва обавештења? Ову радњу није могуће опозвати'
       delete_all_tooltip: 'Избриши сва обавештења'
       discussion_renamed_text: '{username} је променио наслов'
       empty_text: 'Нема обавештења'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Обележи као прочитано'
+      title: '=> core.ref.notifications'
       toggle_dropdown_accessible_label: 'Погледај обавештења'
+      tooltip: '=> core.ref.notifications'
     post:
       edited_text: Уређено
       edited_tooltip: '{username} уредио {ago}'
       number_tooltip: 'Порука #{number}'
     post_controls:
+      delete_button: '=> core.ref.delete'
       delete_confirmation: 'Да ли желите да обришете ову поруку заувек? Ова радња не може бити опозвана.'
+      delete_forever_button: '=> core.ref.delete_forever'
+      edit_button: '=> core.ref.edit'
       hide_confirmation: 'Да ли сте сигурни да желите да обришете ову поруку?'
+      restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Укључи / искључи падајући мени за контролу поруке'
     post_scrubber:
       now_link: Сада
       original_post_link: 'Оригинална порука'
@@ -271,11 +386,16 @@ core:
     post_stream:
       discussion_renamed_old_tooltip: 'Стари наслов је био: "{old}"'
       discussion_renamed_text: '{username} је променио наслов на {new} {time}.'
+      load_more_button: '=> core.ref.load_more'
+      reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} касније'
     rename_discussion:
+      submit_button: '=> core.ref.rename'
       title: 'Преименуј дискусију'
     search:
       all_discussions_button: 'Претражи све дискусије са "{query}"'
+      discussions_heading: '=> core.ref.discussions'
+      users_heading: '=> core.ref.users'
     security:
       cannot_terminate_current_session: 'Не можете зауставити тренутно активну сесију. Уместо тога, одјави се.'
       created: Створено
@@ -283,28 +403,67 @@ core:
       empty_text: 'Изгледа да нема ништа да се види овде.'
       global_logout:
         heading: 'Одјави се свуда'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Сакриј токен'
       last_activity: 'Последња активност'
+      never: '=> core.ref.never'
+      new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
+        submit_button: 'Направи токен'
+        title: '=> core.ref.new_token'
         title_placeholder: Наслов
       revoke_access_token: Опозови
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_termination_failed: 'Догодила се грешка приликом прекидања ваших сесија.'
+      sessions_heading: 'Активне сесије'
+      show_access_token: 'Погледај токен'
       terminate_all_other_sessions: 'Заврши све остале сесије'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
       terminate_session: Заврши
+      title: '=> core.ref.security'
+      token_revoked: 'Токен је опозван.'
     settings:
       account_heading: Налог
+      change_email_button: '=> core.ref.change_email'
+      change_password_button: '=> core.ref.change_password'
+      notifications_heading: '=> core.ref.notifications'
+      notify_by_email_heading: '=> core.ref.email'
+      privacy_disclose_online_label: 'Дозволи другима да виде да сам онлајн'
       privacy_heading: Приватност
+      title: '=> core.ref.settings'
     sign_up:
+      dismiss_button: '=> core.ref.okay'
+      email_placeholder: '=> core.ref.email'
       log_in_text: 'Да ли већ имате налог? <a>Пријавите се</a>'
+      password_placeholder: '=> core.ref.password'
+      submit_button: '=> core.ref.sign_up'
+      title: '=> core.ref.sign_up'
+      username_placeholder: '=> core.ref.username'
       welcome_text: 'Добродошли {username}!'
     user:
+      avatar_remove_button: '=> core.ref.remove'
       avatar_upload_button: Отпреми
       avatar_upload_tooltip: 'Отпреми новог аватара'
+      discussions_link: '=> core.ref.discussions'
       in_discussion_text: 'У {discussion}'
       joined_date_text: 'Придружио се {ago}'
       online_text: 'На мрежи'
       posts_empty_text: 'Изгледа да овде нема порука.'
+      posts_link: '=> core.ref.posts'
+      posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
+      settings_link: '=> core.ref.settings'
     user_controls:
       button: Контроле
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Да ли сте сигурни да желите да обришете овог корисника? Његове поруке НЕЋЕ бити обрисане.'
+      delete_error_message: 'Брисање корисника <i>{username} ({email})</i> није успело'
+      delete_success_message: 'Корисник <i>{username} ({email})</i> је обрисан'
+      edit_button: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Укључи / искључи падајући мени за корисничке контроле'
     user_email_confirmation:
+      alert_message: '=> core.ref.confirmation_email_sent'
+      resend_button: 'Поново пошаљи мејл са потврдом'
       sent_message: Послато
     welcome_hero:
       hide: 'Сакрите поруку добродошлице'
@@ -318,22 +477,51 @@ core:
     mod: Модератор
     mods: Модератори
   lib:
+    alert:
+      dismiss_a11y_label: 'Одбаци упозорење'
     badge:
       hidden_tooltip: Скривено
+    debug_button: Дебагирај
+    dropdown:
+      toggle_dropdown_accessible_label: 'Укључи / искључи падајући мени'
     edit_user:
       activate_button: 'Активирај корисника'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
       groups_heading: Групе
       nothing_available: 'Ви нисте овлашћени да правите промене на овом кориснику.'
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
       set_password_label: 'Изабери нову лозинку'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.edit_user'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
+    error:
+      dependent_extensions_message: 'Немогуће је искључити {extension} све док не искључите додатке који зависе од њега: {extensions}'
+      extension_initialiation_failed_message: '{extension} није успела да се иницијализује, погледајте конзолу у вашем веб браузеру за додатне информације.'
+      generic_cross_origin_message: 'Сто му громова! Нешто је пошло наопако са cross-origin захтевом. Поново учитајте страницу и покушајте још једном.'
+      generic_message: 'Сто му громова! Нешто пошло наопако. Поново учитајте ову страницу и покушајте поново.'
+      missing_dependencies_message: 'Немогуће је укључити {extension} уколико не укључите додатке од којих он зависи: {extensions}'
+      not_found_message: 'Тражени ресурс није пронађен.'
+      payload_too_large_message: 'Товар захтева је превелик.'
+      permission_denied_message: 'Немате потребне дозволе да би сте то урадили.'
+    loading_indicator:
+      accessible_label: '=> core.ref.loading'
     modal:
       close: Затвори
   ref:
     all_discussions: 'Све дискусије'
+    change_email: 'Промените мејл'
     change_password: 'Пормени лозинку'
     color: Боја
     confirm_email: 'Потврдите е-пошту'
     confirm_password: 'Потврдите лозинку'
     confirmation_email_sent: 'Послали смо вам поруку за потврду е-поште на {email}. Ако не стигне ускоро, проверите фасциклу у коју стиже нежељена е-пошта.'
+    custom_footer_text: 'Додајте HTML који ће бити приказан на дну сваке странице.'
+    custom_footer_title: 'Промените прилагођено подножје'
+    custom_header_text: 'Додајте HTML који ће бити приказан на самом врху сваке странице, изнад Фларумовог заглавља.'
+    custom_header_title: 'Промени прилагођено заглавље'
     delete: Избриши
     delete_forever: 'Избриши заувек'
     discussions: Доскусије
@@ -375,16 +563,46 @@ core:
   views:
     admin:
       extensions:
+        caption: '=> core.ref.extensions'
         disable: Онемогући
         empty: 'Нема инсталираних проширења могућности'
         enable: Омогући
+        name: 'Име додатка'
         package_name: 'Име пакета'
         version: Верзија
+      info:
+        caption: 'Информације о апликацији'
       title: Администрација
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Притисните дугме које је испод да би сте потврдили мејл за ваш налог.'
+      title: '=> core.ref.confirm_email'
+    content:
+      javascript_disabled_message: 'Овај сајт ће бити најбоље приказан у модерном браузеру и укљученом JavaScript подршком.'
+      load_error_message: 'Нешто је пошло наопако при покушају да се учита пуна верзија овог сајта. Покушајте да освежите ову страну да би сте поправили грешку.'
+      loading_text: '=> core.ref.loading'
+    discussion:
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
     error:
+      csrf_token_mismatch: 'Предуго сте били неактивни.'
       csrf_token_mismatch_return_link: 'Иди назад да покушаш поново'
+      invalid_confirmation_token: 'Овај линк за потврду је већ употребљен или није исправан.'
+      not_authenticated: 'Нема права да приступите овој страници. Пријавите се и покушајте поново.'
+      not_found: 'Нема странице коју сте затражили.'
+      not_found_return_link: 'Вратите се на {forum}'
+      permission_denied: 'Немате право да приступите овој страници.'
+      unknown: 'Дошло је до грешке приликом учитавања ове странице.'
+    index:
+      all_discussions_heading: '=> core.ref.all_discussions'
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
     log_out:
+      log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Да ли сте сигурни да желите да се одјавите из {forum}?'
+      title: '=> core.ref.log_out'
     reset_password:
       confirm_password_label: 'Потврдите нову лозинку'
       new_password_label: 'Нова лозинка'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.reset_your_password'
