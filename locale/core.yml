@@ -22,6 +22,7 @@ core:
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Унесите хексадецималну вредност за боју.'
+      favicon_heading: Фавицон
       favicon_text: 'Пошаљите слику која ће бити коришћена као икона пречице за форум.'
       logo_heading: Лого
       logo_text: 'Пошаљите слику која ће се користити уместо наслова форума.'
@@ -38,6 +39,7 @@ core:
       home_page_heading: 'Почетна страна'
       home_page_text: 'Одаберите страницу коју ће корисници прво видети када посете фаш форум.'
       show_language_selector_label: 'Прикажи подешавања за одабир језика'
+      slug_driver_text: 'Изаберите управљачки програм који ће се користити за спајање овог модела.'
       title: Основно
       welcome_banner_heading: 'Банер за добродошлицу'
       welcome_banner_text: 'Конфигуришите текс који ће се приказивати на банеру странице са свим дискусијама. Функција текста је да пожелите добродошлицу посетиоцима форума.'
@@ -81,6 +83,8 @@ core:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Име
+      plural_placeholder: 'Множина (нпр. Модератори)'
+      singular_placeholder: 'Једнина (нпр. Модератор)'
       submit_button: '=> core.ref.save_changes'
       title: 'Направи групу'
     edit_header:
@@ -101,6 +105,7 @@ core:
       mail_password_label: '=> core.ref.password'
       mail_port_label: Порт
       mail_username_label: '=> core.ref.username'
+      mailgun_heading: 'Mailgun подешавања'
       not_sending_message: 'Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном механизму, или грешкама у његовој конфигурацији.'
       send_test_mail_button: Пошаљи
       send_test_mail_heading: 'Пошаљи тест имејл'
@@ -109,6 +114,8 @@ core:
       smtp_heading: 'SMTP подешавања'
       title: '=> core.ref.email'
     extension:
+      configure_scopes: 'Конфигуришите опсеге'
+      confirm_purge: 'Уклањање ће избрисати све уносе базе података и средства у вези са екстензијом. Неће деинсталирати екстензију; то се мора урадити преко Цомпосера. Да ли сте сигурни да желите да наставите?'
       disabled: Онемогућено
       enable_to_see: 'Омогућите овом додатку да чита и пише подешавања.'
       enabled: Омогућено
@@ -510,6 +517,15 @@ core:
       accessible_label: '=> core.ref.loading'
     modal:
       close: Затвори
+    nav:
+      drawer_button: 'Отворите мени за навигацију'
+    number_suffix:
+      kilo_text: К
+      mega_text: М
+    series:
+      glue_text: ', '
+    username:
+      deleted_text: '[обрисан налог]'
   ref:
     all_discussions: 'Све дискусије'
     change_email: 'Промените мејл'
