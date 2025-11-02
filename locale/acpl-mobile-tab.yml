@@ -4,4 +4,9 @@
 
 acpl-mobile-tab:
   forum:
+    all_discussions: Дискусије
+    categories: Категорије
     home: Почетна
+    log_in: Пријављивање
+    notifications: Обавештења
+    profile: Профил
