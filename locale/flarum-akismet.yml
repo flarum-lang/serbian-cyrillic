@@ -5,10 +5,10 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'АПИ Key'
+      api_key_label: 'API кључ'
       delete_blatant_spam_help: 'Ако Акисмет утврди да је коментар очигледан нежељени садржај, уместо означавања, аутоматски избришите одговор'
-      delete_blatant_spam_label: 'Аутоматски избришите очигледну нежељену пошту'
-      title: 'Акисмет подешавања'
+      delete_blatant_spam_label: 'Аутоматски избриши очигледну нежељену пошту'
+      title: 'Подешавања Акисмета'
     permissions:
       bypass_akismet: 'Заобиђите Акисмет'
   forum:
