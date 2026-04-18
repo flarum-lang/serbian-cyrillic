@@ -19,7 +19,7 @@ This language pack contains Serbian (Cyrillic) translations for Flarum (compatib
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/serbian-cyrillic:dev-master
+composer require "flarum-lang/serbian-cyrillic:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
