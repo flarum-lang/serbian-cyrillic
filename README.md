@@ -11,7 +11,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/serbian-cyrillic)](https://packagist.org/packages/flarum-lang/serbian-cyrillic/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/serbian-cyrillic)](https://packagist.org/packages/flarum-lang/serbian-cyrillic/stats) 
 
-This language pack contains Serbian (Cyrillic) translations for Flarum (compatible with `1.6.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Serbian (Cyrillic) translations for Flarum (compatible with `2.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
@@ -19,7 +19,7 @@ This language pack contains Serbian (Cyrillic) translations for Flarum (compatib
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/serbian-cyrillic:dev-master
+composer require "flarum-lang/serbian-cyrillic:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
