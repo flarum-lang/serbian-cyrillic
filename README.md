@@ -100,7 +100,6 @@ php flarum cache:clear
 | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Cyrl/clarkwinkelmann-likes-received/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-likes-received/sr_Cyrl/) |
 | [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Cyrl/clarkwinkelmann-post-permissions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-permissions/sr_Cyrl/) |
 | [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Cyrl/gtdxyz-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/gtdxyz-badges/sr_Cyrl/) |
-| [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Cyrl/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/sr_Cyrl/) |
 
 <!-- various-extensions-list-stop -->
 
