@@ -27,6 +27,7 @@ core:
       logo_text: 'Пошаљите слику која ће се користити уместо наслова форума.'
       title: Изглед
     basics:
+      abandoned_extensions_sync_button: 'Провери сада'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Подразумевани језик'
       description: 'Подесите наслов, језик и друга основна подешавања за ваш форум.'
