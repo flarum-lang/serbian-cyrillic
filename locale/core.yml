@@ -28,6 +28,7 @@ core:
       logo_text: 'Пошаљите слику која ће се користити уместо наслова форума.'
       title: Изглед
     basics:
+      abandoned_extensions_sync_button: 'Провери сада'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Подразумевани језик'
       description: 'Подесите наслов, језик и друга основна подешавања за ваш форум.'
@@ -259,7 +260,7 @@ core:
       must_be_numeric_message: '{filter} филтар мора бити нумерички.'
       must_not_be_array_message: '{filter} филтар не сме бити низ.'
       must_not_be_multidimensional_array_message: '{filter} филтар не сме бити вишедимензиони низ.'
-    invalid_username_message: 'Корисничко име може садржати само слова, бројеве и цртице.'
+    invalid_username_message: 'Корисничко име може садржати само engleska латинична слова, бројеве и цртице.'
   email:
     activate_account:
       body: "Добар дан {username},\n\nНеко (надамо се ви!) је отворио налог на {forum} са овом адресом е-поште.\n\nАко сте то били ви, једноставно кликните на линк испод и ваш налог ће бити активиран.\n{url}\n\nАко се ви нисте пријавили за овај налог, молимо вас да игноришете ову поруку.\n"
