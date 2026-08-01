@@ -48,6 +48,7 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
