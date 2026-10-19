@@ -95,6 +95,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sr_Cyrl/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/sr_Cyrl/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sr_Cyrl/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/sr_Cyrl/) |
+| [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sr_Cyrl/clarkwinkelmann-likes-received/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-likes-received/sr_Cyrl/) |
 
 <!-- various-extensions-list-stop -->
 
