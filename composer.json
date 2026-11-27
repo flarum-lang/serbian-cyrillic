@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/serbian-cyrillic",
+	"description": "Serbian (Cyrillic) Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Serbian (Cyrillic) language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/serbian-cyrillic",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"sr_Cyrl-locale",
-		"serbian-cyrillic-locale",
-		"serbian-cyrillic"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/serbian-cyrillic",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/serbian-cyrillic/issues",
+		"forum": "https://discuss.flarum.org/d/40213",
 		"source": "https://github.com/flarum-lang/serbian-cyrillic"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Serbian (Cyrillic)",
 			"category": "language",
@@ -33,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "sr-Cyrl",
-			"title": "Serbian (Cyrillic)"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Српски (ћирилица)"
 		}
 	}
 }
